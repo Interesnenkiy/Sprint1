@@ -34,7 +34,7 @@ public class Monster {
 
     public boolean taskMonster(int difficultGame) {
         System.out.println("Ответьте на вопрос");
-        int u = 7;    //r.nextInt(1,6);
+        int u = r.nextInt(1,7);
 
         if (u == 1) {
             System.out.println("Сколько есть сторон света?");
